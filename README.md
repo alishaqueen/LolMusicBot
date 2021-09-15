@@ -17,17 +17,17 @@
 
 # ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ sᴛʀɪɴɢ sᴇssɪᴏɴ
 
-[Repl Link](https://replit.com/@AdityaHalder/PyrogramStringSession) to get pyrogram string session
+[Repl Link](https://replit.com/button.svg](https://replit.com/@AdityaHalder/PyrogramStringSession) to get pyrogram string session
 
 
 ### Deploy To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AdityaHalder/AdityaPlayer)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Shailendra34/ShailendraVcPlayer)
 
 
 ### Deploy To Railway
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/AdityaHalder/AdityaPlayer&envs=API_ID,API_HASH,BOT_TOKEN,DURATION_LIMIT,SESSION_NAME,SUDO_USERS)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Shailendra34/ShailendraVcPlayer&envs=API_ID,API_HASH,BOT_TOKEN,DURATION_LIMIT,SESSION_NAME,SUDO_USERS)
 
 
 ### ᴄʀᴇᴅɪᴛs
