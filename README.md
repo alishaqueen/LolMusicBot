@@ -24,9 +24,7 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Shailendra34/ShailendraVcPlayer)
 
-###query
 
-[![Deploy+on+Query](https://console.qovery.com/button.svg)](https://console.qovery.com//new/template?template=https://github.com/Shailendra34/ShailendraVcPlayer&envs=API_ID,API_HASH,BOT_TOKEN,DURATION_LIMIT,SESSION_NAME,SUDO_USERS)
 ### Deploy To Railway
 
 [![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Shailendra34/ShailendraVcPlayer&envs=API_ID,API_HASH,BOT_TOKEN,DURATION_LIMIT,SESSION_NAME,SUDO_USERS)
