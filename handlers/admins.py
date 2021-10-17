@@ -17,10 +17,10 @@ async def pause(_, message: Message):
     ) or (
             callsmusic.pytgcalls.active_calls[message.chat.id] == 'paused'
     ):
-        await message.reply_text("**▶️ ❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱ ᴀʟʀᴇᴀᴅʏ\n🔈 ᴘᴀᴜsᴇᴅ ...**")
+        await message.reply_text("**▶️ ❰ᴀʟɪꜱʜᴀ✘ᴘʟᴀʏᴇʀ❱ ᴀʟʀᴇᴀᴅʏ\n🔈 ᴘᴀᴜsᴇᴅ ...**")
     else:
         callsmusic.pytgcalls.pause_stream(message.chat.id)
-        await message.reply_text("**▶️ ❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱ ɪs » ɴᴏᴡ\n🔈 ᴘᴀᴜsᴇᴅ ...**")
+        await message.reply_text("**▶️ ❰ᴀʟɪꜱʜᴀ✘ᴘʟᴀʏᴇʀ❱ ɪs » ɴᴏᴡ\n🔈 ᴘᴀᴜsᴇᴅ ...**")
 
 
 @Client.on_message(command("resume") & other_filters)
@@ -32,10 +32,10 @@ async def resume(_, message: Message):
     ) or (
             callsmusic.pytgcalls.active_calls[message.chat.id] == 'playing'
     ):
-        await message.reply_text("**⏸ ❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱ ᴀʟʀᴇᴀᴅʏ\n🔊 ᴘʟᴀʏɪɴɢ ...**")
+        await message.reply_text("**⏸ ❰ᴀʟɪꜱʜᴀ✘ᴘʟᴀʏᴇʀ❱ ᴀʟʀᴇᴀᴅʏ\n🔊 ᴘʟᴀʏɪɴɢ ...**")
     else:
         callsmusic.pytgcalls.resume_stream(message.chat.id)
-        await message.reply_text("**⏸ ❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱ ɪs » ɴᴏᴡ\n🔊 ʀᴇsᴜᴍᴇᴅ ...**")
+        await message.reply_text("**⏸ ❰ᴀʟɪꜱʜᴀ✘ᴘʟᴀʏᴇʀ❱ ɪs » ɴᴏᴡ\n🔊 ʀᴇsᴜᴍᴇᴅ ...**")
 
 
 @Client.on_message(command("stop") & other_filters)
@@ -43,7 +43,7 @@ async def resume(_, message: Message):
 @authorized_users_only
 async def stop(_, message: Message):
     if message.chat.id not in callsmusic.pytgcalls.active_calls:
-        await message.reply_text("**❌ ❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱ ᴀʟʀᴇᴀᴅʏ\n🔇 sᴛᴏᴘᴘᴇᴅ ...**")
+        await message.reply_text("**❌ ❰ᴀʟɪꜱʜᴀ✘ᴘʟᴀʏᴇʀ❱ ᴀʟʀᴇᴀᴅʏ\n🔇 sᴛᴏᴘᴘᴇᴅ ...**")
     else:
         try:
             callsmusic.queues.clear(message.chat.id)
@@ -51,7 +51,7 @@ async def stop(_, message: Message):
             pass
 
         callsmusic.pytgcalls.leave_group_call(message.chat.id)
-        await message.reply_text("**❌ ❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱ ɪs » ɴᴏᴡ\n🔇 sᴛᴏᴘᴘᴇᴅ ...**")
+        await message.reply_text("**❌ ❰ᴀʟɪꜱʜᴀ✘ᴘʟᴀʏᴇʀ❱ ɪs » ɴᴏᴡ\n🔇 sᴛᴏᴘᴘᴇᴅ ...**")
 
 
 @Client.on_message(command("skip") & other_filters)
@@ -71,4 +71,4 @@ async def skip(_, message: Message):
                 callsmusic.queues.get(message.chat.id)["file"]
             )
 
-        await message.reply_text("**❌ ❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱ ɪs » ɴᴏᴡ\n⏩ sᴋɪᴘᴘᴇᴅ ʏᴏᴜʀ sᴏɴɢ ...**")
+        await message.reply_text("**❌ ❰ᴀʟɪꜱʜᴀ✘ᴘʟᴀʏᴇʀ❱ ɪs » ɴᴏᴡ\n⏩ sᴋɪᴘᴘᴇᴅ ʏᴏᴜʀ sᴏɴɢ ...**")
