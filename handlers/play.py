@@ -100,7 +100,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱"
+        user.first_name = "❰ᴀʟɪꜱʜᴀ✘ᴘʟᴀʏᴇʀ❱"
     usar = user
     wew = usar.id
     try:
@@ -118,18 +118,18 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱ sᴜᴘᴇʀ ғᴀsᴛ\nᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴀssɪsᴛᴀɴᴛ ɴᴏᴡ\nʜᴇʀᴇ ...**")
+                        message.chat.id, "**❰ᴀʟɪꜱʜᴀ✘ᴘʟᴀʏᴇʀ❱ sᴜᴘᴇʀ ғᴀsᴛ\nᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴀssɪsᴛᴀɴᴛ ɴᴏᴡ\nʜᴇʀᴇ ...**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱ » ᴀssɪsᴛᴀɴᴛ\nᴄᴏᴜʟᴅ ɴᴏᴛ ᴊᴏɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ...</b>")
+                        f"<b>❰ᴀʟɪꜱʜᴀ✘ᴘʟᴀʏᴇʀ❱ » ᴀssɪsᴛᴀɴᴛ\nᴄᴏᴜʟᴅ ɴᴏᴛ ᴊᴏɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ...</b>")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<b>❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱ sᴜᴘᴇʀ ғᴀsᴛ\nᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴀssɪsᴛᴀɴᴛ » ɪs\nɴᴏᴛ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ...</b>")
+            f"<b>❰ᴀʟɪꜱʜᴀ✘ᴘʟᴀʏᴇʀ❱ sᴜᴘᴇʀ ғᴀsᴛ\nᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴀssɪsᴛᴀɴᴛ » ɪs\nɴᴏᴛ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ...</b>")
         return
     
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
@@ -153,7 +153,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞",
-                            url=f"t.me/adityadiscus")
+                            url=f"t.me/AlishaSupport")
 
                 ]
             ]
@@ -191,14 +191,14 @@ async def play(_, message: Message):
                     [
                         InlineKeyboardButton(
                             text="💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞",
-                            url=f"t.me/adityadiscus")
+                            url=f"t.me/AlishaSupport")
 
                     ]
                 ]
             )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/e6b77c91a4228b6d9fd92.jpg"
+            thumb_name = "https://telegra.ph/file/9fe9b2ba35f9b77db3aec.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -206,7 +206,7 @@ async def play(_, message: Message):
                         [
                         InlineKeyboardButton(
                             text="💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞",
-                            url=f"t.me/adityadiscus")
+                            url=f"t.me/AlishaSupport")
 
                        ]
                     ]
@@ -256,7 +256,7 @@ async def play(_, message: Message):
                     [
                         InlineKeyboardButton(
                             text="💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞",
-                            url=f"t.me/adityadiscus")
+                            url=f"t.me/AlishaSupport")
 
                     ]
                 ]
@@ -282,6 +282,6 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="**❰ᴀᴅɪᴛʏᴀ✘ᴘʟᴀʏᴇʀ❱ ɴᴏᴡ ᴘʟᴀʏɪɴɢ\nᴠɪᴀ [ᴀᴅɪᴛʏᴀ sᴇʀᴠᴇʀ](t.me/adityaserver) ...**".format(), )
+        caption="**❰ᴀʟɪꜱʜᴀ✘ᴘʟᴀʏᴇʀ❱ ɴᴏᴡ ᴘʟᴀʏɪɴɢ\nᴠɪᴀ [ᴀʟɪꜱʜᴀ sᴇʀᴠᴇʀ](t.me/AlishaSupport) ...**".format(), )
         os.remove("final.png")
         return await lel.delete()
